@@ -4,8 +4,7 @@
 name: Node.js CI
 
 permissions:
-  contents: write  # Important pour permettre le push des changements
-
+  contents: write
 on:
   push:
     branches: [ "main" ]
@@ -19,8 +18,8 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [18.x, 20.x, 22.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+        node-version: 
+          - 22.x
 
     steps:
     - uses: actions/checkout@v4
@@ -38,7 +37,7 @@ jobs:
     - name: Move generated files to /docs
       run: |
         rm -rf docs # Supprime l'ancien dossier si présent
-        mv dist docs # Déplace le contenu généré vers /docs
+        mv .output/public docs # Déplace le contenu généré vers /docs
     - name: Commit and push changes
       run: |
         git config --local user.email "actions@github.com"
