@@ -4,7 +4,7 @@
             J'aimerais devenir membre
         </p>
         <div class="app-footer__submit">
-            <img src="/assets/submit.png">
+            <img src="assets/submit.png">
         </div>
         <h3>
             Contact
@@ -24,7 +24,7 @@
             Atelier Tramons reçoit le soutien de
         </h3>
         <div class="app-footer__logo">
-            <img src="/assets/fplce.png">
+            <img src="assets/fplce.png">
         </div>
     </div>
 
@@ -41,15 +41,13 @@ h3 {
     font-size: 0.8rem;
 }
 
-.app-footer__submit img{
+.app-footer__submit img {
     width: 70%;
     max-width: 300px;
 }
 
-.app-footer__logo img{
+.app-footer__logo img {
     width: 20%;
     max-width: 50px;
 }
-
-
 </style>
