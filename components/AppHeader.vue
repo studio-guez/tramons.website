@@ -1,7 +1,7 @@
 <template>
     <div class="app-header">
         <a href="http://localhost:3000/">
-            <img src="/assets/logo.png">
+            <img src="assets/logo.png">
         </a>
 
     </div>

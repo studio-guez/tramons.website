@@ -24,7 +24,7 @@
         projets.
         Nous travaillons avec des machines</p>
     <div class="index__img">
-        <img src="/assets/riso.png">
+        <img src="assets/riso.png">
     </div>
 
         <h3>
