@@ -3,6 +3,9 @@
 
 name: Node.js CI
 
+permissions:
+  contents: write  # Important pour permettre le push des changements
+
 on:
   push:
     branches: [ "main" ]
