@@ -16,7 +16,7 @@
             Adresse
         </h3>
         <p>
-            Rue marguerite Dellenbach 5 <br>
+            Rue Marguerite Dellenbach 5 <br>
             1205 Genève <br>
             Suisse
         </p>

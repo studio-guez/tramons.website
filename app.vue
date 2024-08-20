@@ -19,6 +19,8 @@ html {
 }
 body {
   margin-left: 7rem;
+  margin-right: 4rem;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 </style>
