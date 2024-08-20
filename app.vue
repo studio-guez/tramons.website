@@ -18,6 +18,7 @@ html {
   color: #ae8fee;
 }
 body {
+  margin-left: 7rem;
   font-size: 1.5rem;
 }
 </style>
