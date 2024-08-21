@@ -1,8 +1,8 @@
 <template>
     <div class="app-header">
-        <a href="http://localhost:3000/">
+        <NuxtLink href="/">
             <img src="assets/logo.png">
-        </a>
+        </NuxtLink>
 
     </div>
 </template>

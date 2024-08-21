@@ -29,7 +29,7 @@
     <p>
         Nous travaillons avec des machines</p>
     <div class="index__img">
-        <img src="assets/riso.png">
+        <img src="../assets/riso.png">
     </div>
 
     <h3>
@@ -82,7 +82,7 @@ h3 {
 }
 
 img {
-    width: 80%;
-    max-width: 500px;
+    width: 100%;
+    max-width: 50rem;
 }
 </style>

@@ -22,5 +22,6 @@ body {
   margin-right: 4rem;
   font-size: 1.5rem;
   font-weight: bold;
+  max-width: 50rem;
 }
 </style>
